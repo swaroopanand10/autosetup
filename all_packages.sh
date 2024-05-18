@@ -114,7 +114,7 @@ packagesParu=(
 # "qutebrowser"
 # "brave-bin"
 # "thorium-browser-bin"
-"vivaldi"
+# "vivaldi"
 # "google-chrome"
 
 ## Fonts
