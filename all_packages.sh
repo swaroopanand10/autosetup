@@ -3,6 +3,8 @@ packagesParu=(
 
 ### Wayland related packages
 "hyprland"
+"cpio"
+"hyprwayland-scanner" # required for plugins
 # "rofi-lbonn-wayland-git"
 # "rofi-calc"
 "swaybg"
