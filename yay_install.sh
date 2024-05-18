@@ -17,3 +17,10 @@ else
     echo "yay has been installed successfully."
 fi
 echo ""
+
+## Then Install paru binary through yay(fast)
+if sudo pacman -Qs paru > /dev/null ; then
+    echo "paru is already installed!"
+else
+sudo pacman -S paru-bin --noconfirm
+fi

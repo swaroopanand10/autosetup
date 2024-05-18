@@ -6,8 +6,8 @@
 # _installPackagesPacman "${packagesPacman[@]}";
 # _installPackagesYay "${packagesYay[@]}";
 
-source ./all-packages.sh
-source ./paru-function.sh
+source ./all_packages.sh
+source ./paru_function.sh
 
 # _installPackagesParu "rofi-lbonn-wayland-git"
 _installPackagesParu "rofi-lbonn-wayland"
