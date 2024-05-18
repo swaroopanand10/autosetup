@@ -111,7 +111,7 @@ packagesParu=(
 "firefox"
 # "qutebrowser"
 # "brave-bin"
-"thorium-browser-bin"
+# "thorium-browser-bin"
 "vivaldi"
 # "google-chrome"
 
