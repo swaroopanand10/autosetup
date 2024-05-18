@@ -12,9 +12,9 @@ sudo gpasswd -a swaroop input
 
 ## Creating some imp dirs
 [ -d ~/Pictures ] || mkdir ~/Pictures # create pictures dir only if not exist
-cd ~/Pictures && [ -d screenshots ] || mkdir screenshots
+cd ~/Pictures && ([ -d screenshots ] || mkdir screenshots)
 [ -d Videos ] || mkdir Videos
-cd ~/Videos && [ -d screen_recs ] || mkdir screen_recs
+cd ~/Videos && ([ -d screen_recs ] || mkdir screen_recs)
 
 ## Nemo default terminal
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
