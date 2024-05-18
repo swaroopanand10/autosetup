@@ -22,5 +22,5 @@ echo ""
 if sudo pacman -Qs paru > /dev/null ; then
     echo "paru is already installed!"
 else
-sudo pacman -S paru-bin --noconfirm
+yay -S paru-bin --noconfirm
 fi
