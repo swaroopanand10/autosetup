@@ -6,7 +6,7 @@
 # _installPackagesPacman "${packagesPacman[@]}";
 # _installPackagesYay "${packagesYay[@]}";
 
-source ./all_packages.sh
+source ./all_packages_list.sh
 source ./paru_function.sh
 
 _installPackagesParu "rofi-wayland"

@@ -70,8 +70,8 @@ packagesParu=(
 
 ## Tmux related
 "tmux"
-"tmux-resurrect"
-"tmux-plugin-manager"
+# "tmux-resurrect"
+# "tmux-plugin-manager"
 # "tmux-fastcopy-bin"
 
 ## Functionality packages
