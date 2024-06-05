@@ -15,6 +15,7 @@ packagesParu=(
 "cliphist"
 "swaylock"
 "swayidle"
+"swayosd-git"
 # "wlr-randr"
 # "wlprop"
 "nwg-look-bin"
