@@ -8,6 +8,7 @@ packagesParu=(
 "xclip"
 "xsel"
 "xdotool"
+"xdo"
 
 ## Zsh packages
 "zsh"
