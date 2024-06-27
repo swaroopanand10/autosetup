@@ -36,7 +36,7 @@ packagesParu=(
 "blueman"
 
 ## Wm packages
-"pamixer"
+# "pamixer"
 "playerctl"
 "brightnessctl"
 "udiskie"
@@ -119,7 +119,7 @@ packagesParu=(
 # "google-chrome"
 
 ## Fonts
-"ttf-jetbrains-mono-nerd"
+"ttf-jetbrains-mono-nerd" # for stuff like polybar etc
 "noto-fonts-emoji" # for emojis
 "noto-fonts" # for emojis
 "ttf-nerd-fonts-symbols" # for non-patched symbols
@@ -136,7 +136,8 @@ packagesParu=(
 "poppler"
 "gparted"
 "polkit-gnome"
-"xournalpp"
+# "xournalpp"
+"lorien-bin"
 # "visual-studio-code-bin"
 # "cloudflare-warp-bin"
 "ansible"
@@ -210,9 +211,11 @@ packagesParu=(
 # "shfmt"
 # "js-beautify"
 
-## Themes
+## Themes (trying to be as lightweight as possible)
+"adwaita-cursors"
+"arc-icon-theme"
 "dracula-gtk-theme"
-"dracula-icons-git"
-"dracula-cursors-git"
-"faba-icon-theme"
+# "dracula-icons-git"
+# "dracula-cursors-git"
+# "faba-icon-theme"
 );
