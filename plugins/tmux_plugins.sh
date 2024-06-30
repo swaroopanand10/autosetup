@@ -2,7 +2,7 @@
 
 # This repo will install tmux plugins manually
 
-TMUX_PLUGIN_DIR="$HOME/.local/share/tmux_plugins"
+TMUX_PLUGIN_DIR="$HOME/.local/plugins/tmux_plugins"
 
 mkdir -p "$TMUX_PLUGIN_DIR" &&
 cd "$TMUX_PLUGIN_DIR" || exit
