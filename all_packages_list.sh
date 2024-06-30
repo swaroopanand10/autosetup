@@ -15,12 +15,12 @@ packagesParu=(
 "cliphist"
 "swaylock"
 "swayidle"
-"swayosd-git"
+# "swayosd-git"
 # "wlr-randr"
 # "wlprop"
 "nwg-look-bin"
 # "qt5ct" # useless if qt5-styleplugins is there
-"qt5-styleplugins" # using it to set gtk theme to qt applications
+# "qt5-styleplugins" # using it to set gtk theme to qt applications
 "wlogout"
 
 ### for screen capturing
@@ -52,7 +52,7 @@ packagesParu=(
 # "zsh-syntax-highlighting"
 # "zsh-autosuggestions"
 # "fzf-tab-bin-git"
-"fzf-tab-completion-git" #it is for bash
+# "fzf-tab-completion-git" #it is for bash
 
 ## Terminals
 # "foot"
@@ -106,7 +106,8 @@ packagesParu=(
 "zathura"
 "zathura-pdf-mupdf"
 "zathura-djvu"
-"zaread-git"
+# "zaread-git"
+"libmupdf"
 "evince"
 # zathura-pdf-poppler
 
@@ -120,10 +121,11 @@ packagesParu=(
 
 ## Fonts
 "ttf-jetbrains-mono-nerd" # for stuff like polybar etc
+"ttf-jetbrains-mono" # for stuff like polybar etc
 "noto-fonts-emoji" # for emojis
 "noto-fonts" # for emojis
 "ttf-nerd-fonts-symbols" # for non-patched symbols
-"ttf-victor-mono" # victor mono for cursive italics for terminal
+# "ttf-victor-mono" # victor mono for cursive italics for terminal
 # "ttf-font-awesome" # not needed after noto-fonts-emoji
 
 ## Others
@@ -133,7 +135,7 @@ packagesParu=(
 "chafa"
 "ffmpegthumbnailer"
 "imagemagick"
-"poppler"
+# "poppler"
 "gparted"
 "polkit-gnome"
 # "xournalpp"
@@ -158,7 +160,7 @@ packagesParu=(
 
 ## Resource manager
 "htop"
-"btop"
+# "btop"
 "bottom"
 "strace"
 

@@ -4,4 +4,3 @@
 CURRENT_DIR="$PWD"
 source "$CURRENT_DIR"/zsh_plugins.sh
 source "$CURRENT_DIR"/tmux_plugins.sh
-
