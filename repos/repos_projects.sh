@@ -13,3 +13,4 @@ mkdir -p "$HOME/code/os"
 
 # notes
 [ -d "$HOME/notes" ] || git clone git@gitlab.com:swaroopanand10/notes.git "$HOME/notes"
+[ -d "$HOME/tj" ] || git clone git@gitlab.com:swaroopanand10/tj.git "$HOME/tj"

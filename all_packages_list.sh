@@ -201,6 +201,7 @@ packagesParu=(
 # "python-black"
 # "stylua"
 "luarocks"
+"lua51" # for imaeg.nvim
 # "typescript-language-server"
 "clang"
 # "vscode-css-languageserver"
