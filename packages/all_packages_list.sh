@@ -121,7 +121,7 @@ packagesParu=(
 
 ## Fonts
 "ttf-jetbrains-mono-nerd" # for stuff like polybar etc
-"ttf-jetbrains-mono" # for stuff like polybar etc
+"ttf-fira-code" # for stuff like polybar etc
 "noto-fonts-emoji" # for emojis
 "noto-fonts" # for emojis
 "ttf-nerd-fonts-symbols" # for non-patched symbols
@@ -142,7 +142,7 @@ packagesParu=(
 "lorien-bin"
 # "visual-studio-code-bin"
 # "cloudflare-warp-bin"
-"ansible"
+# "ansible"
 "unzip"
 "man-db"
 "man-pages"
