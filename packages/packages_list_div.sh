@@ -6,7 +6,6 @@ packagesPacman=(
 	"hyprland"
 	"cpio"
 	"hyprwayland-scanner" # required for plugins
-	# "rofi-calc"
 	"swaybg"
 	"waybar"
 	"wl-clipboard"
@@ -15,9 +14,11 @@ packagesPacman=(
 	"cliphist"
 	"swaylock"
 	"swayidle"
-	# "wlr-randr"
 	"nwg-look"
+  "rofi-wayland"
+	# "wlr-randr"
 	# "qt5ct" # useless if qt5-styleplugins is there
+
 
 	### for screen capturing
 	"slurp"

@@ -25,5 +25,5 @@ gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
 # sudo gpasswd -a swaroop libvirtd
 
 ## Hyprland plugin installation
-hyprpm update && hyprpm add https://github.com/VortexCoyote/hyprfocus && hyprpm enable hyprfocus
+# hyprpm update && hyprpm add https://github.com/VortexCoyote/hyprfocus && hyprpm enable hyprfocus
 # hyprpm update && hyprpm add https://github.com/KZDKM/Hyprspace && hyprpm enable Hyprspace
