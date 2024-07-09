@@ -30,5 +30,5 @@ _installPackagesParu() {
     fi;
 
     printf "paru packages not installed:\n%s\n" "${toInstall[@]}";
-    paru --noconfirm -S "${toInstall[@]}";
+    yes | paru --noconfirm -S "${toInstall[@]}";
 }

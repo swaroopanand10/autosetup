@@ -14,7 +14,7 @@ else
     # [ -d "$HOME/yay-git" ] || git clone https://aur.archlinux.org/yay-git.git ~/yay-git # this will be slow so just install binary
     [ -d "$HOME/yay-bin" ] || git clone https://aur.archlinux.org/yay-bin.git ~/yay-bin
     cd ~/yay-bin || exit
-    makepkg -si
+    yes | makepkg -si
     cd "$temp_path" || exit
     echo "yay has been installed successfully."
 fi
