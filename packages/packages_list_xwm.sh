@@ -9,6 +9,7 @@ packagesParu=(
 "xsel"
 "xdotool"
 "xdo"
+"sxhkd"
 
 ## Zsh packages
 "zsh"
@@ -75,7 +76,6 @@ packagesParu=(
 "noto-fonts-emoji" # for emojis
 "noto-fonts" # for emojis
 "ttf-nerd-fonts-symbols" # for non-patched symbols
-"ttf-victor-mono" # victor mono for cursive italics for terminal
 
 ## Others
 "stow"
@@ -84,10 +84,8 @@ packagesParu=(
 "chafa"
 "ffmpegthumbnailer"
 "imagemagick"
-"poppler"
 "gparted"
 "polkit-gnome"
-"xournalpp"
 # "visual-studio-code-bin"
 "ansible"
 "unzip"
@@ -100,7 +98,6 @@ packagesParu=(
 ## Git related
 "git-delta"
 "lazygit"
-"gitui"
 
 ## Resource manager
 "htop"
@@ -122,7 +119,6 @@ packagesParu=(
 "gdb"
 "cgdb"
 "kdbg"
-"rustup"
 "go"
 "cmake"
 "luarocks"
