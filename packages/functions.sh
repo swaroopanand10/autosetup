@@ -40,7 +40,7 @@ _installPackagesPacman() {
     done;
 
     if [[ "${toInstall[@]}" == "" ]] ; then
-        # echo "All pacman packages are already installed.";
+        echo "All pacman packages are already installed.";
         return;
     fi;
 
@@ -61,7 +61,7 @@ _installPackagesYay() {
     done;
 
     if [[ "${toInstall[@]}" == "" ]] ; then
-        # echo "All packages are already installed.";
+        echo "All packages are already installed.";
         return;
     fi;
 

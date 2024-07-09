@@ -23,7 +23,6 @@ packagesPacman=(
 	### for screen capturing
 	"slurp"
 	"wf-recorder"
-	"hyprpicker"
 
 	## Bluetooth
 	"bluez"
@@ -37,8 +36,6 @@ packagesPacman=(
 	"udiskie"
 	"dunst"
 	"network-manager-applet"
-	"batsignal"
-	# "batify"
 
 	## Zsh packages
 	"zsh"
@@ -152,7 +149,6 @@ packagesPacman=(
 	## Filemanagers
 	"lf"
 	"yazi"
-	"ctpv"
 	# "ranger"
 	# "joshuto"
 	"nemo"
@@ -198,6 +194,7 @@ packagesPacman=(
 packagesYay=(
 	### wm based
 	"wlogout"
+	"hyprpicker"
 	# "qt5-styleplugins" # using it to set gtk theme to qt applications
 	# "rofi-lbonn-wayland-git"
 	# "swayosd-git"
@@ -213,11 +210,14 @@ packagesYay=(
 	# "tmux-fastcopy-bin"
 
 	### Filemanagers
+	"ctpv"
 	# "yazi-git"
 	# "ctpv-git"
 	# "ueberzugpp"
 
 	### Others
+	"batsignal"
+	# "batify"
 	# "lorien-bin"
 	# "visual-studio-code-bin"
 	# "cloudflare-warp-bin"
