@@ -5,8 +5,7 @@ packagesYay=(
 "hyprland"
 "cpio"
 "hyprwayland-scanner" # required for plugins
-# "rofi-lbonn-wayland-git"
-# "rofi-calc"
+"rofi-wayland"
 "swaybg"
 "waybar"
 "wl-clipboard"
@@ -15,13 +14,13 @@ packagesYay=(
 "cliphist"
 "swaylock"
 "swayidle"
+"nwg-look"
+"wlogout"
 # "swayosd-git"
 # "wlr-randr"
 # "wlprop"
-"nwg-look-bin"
 # "qt5ct" # useless if qt5-styleplugins is there
 # "qt5-styleplugins" # using it to set gtk theme to qt applications
-"wlogout"
 
 ### for screen capturing
 "grimblast-git"
