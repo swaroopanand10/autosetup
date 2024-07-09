@@ -87,8 +87,8 @@ packagesParu=(
 "tree"
 "imv"
 "dnsmasq" # needed with nmcli
-"vimv"
 ## Not needed now
+# "vimv"
 # "sxiv"
 # "xorg-xrdb"
 
