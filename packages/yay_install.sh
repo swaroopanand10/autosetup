@@ -20,9 +20,9 @@ else
 fi
 echo ""
 
-## Then Install paru binary through yay(fast)
-if sudo pacman -Qs paru > /dev/null ; then
-    echo "paru is already installed!"
-else
-yay -S paru-bin --noconfirm
-fi
+### Then Install paru binary through yay(fast)
+#if sudo pacman -Qs paru > /dev/null ; then
+#    echo "paru is already installed!"
+#else
+#yay -S paru-bin --noconfirm
+#fi
