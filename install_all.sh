@@ -5,7 +5,7 @@
 CUR_DIR=$(realpath "$(dirname "$0")")
 
 "$CUR_DIR"/packages/yay_install.sh
-"$CUR_DIR"/packages/install_pack.sh
+"$CUR_DIR"/packages/install_pack_yay.sh
 "$CUR_DIR"/dotsetup.sh
 "$CUR_DIR"/plugins/plugins_install.sh
 "$CUR_DIR"/postinstall.sh

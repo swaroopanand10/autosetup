@@ -2,7 +2,8 @@
 
 _isInstalledPacman() {
     package="$1";
-    check="$(sudo pacman -Qs --color always "${package}" | grep "local" | grep "${package} ")";
+    # check="$(sudo pacman -Qs --color always "${package}" | grep "local" | grep "${package} ")";
+    check="$(sudo pacman -Qs "${package}" | grep "local/${package}\s")"; # a space is neccesary at the end so that, ex- searching for "neovim" does not match to "neovim-nightly" as the space is after the full package name.
     if [ -n "${check}" ] ; then
         echo 0; #'0' means 'true' in Bash
         return; #true
@@ -13,7 +14,8 @@ _isInstalledPacman() {
 
 _isInstalledYay() {
     package="$1";
-    check="$(yay -Qs --color always "${package}" | grep "local" | grep "${package} ")";
+    # check="$(yay -Qs --color always "${package}" | grep "local" | grep "${package} ")";
+    check="$(yay -Qs "${package}" | grep "local/${package}\s")"; # a space is neccesary at the end so that, ex- searching for "neovim" does not match to "neovim-nightly" as the space is after the full package name.
     if [ -n "${check}" ] ; then
         echo 0; #'0' means 'true' in Bash
         return; #true
@@ -43,7 +45,7 @@ _installPackagesPacman() {
     fi;
 
     printf "Package not installed:\n%s\n" "${toInstall[@]}";
-    sudo pacman --noconfirm -S "${toInstall[@]}";
+    yes | sudo pacman -S "${toInstall[@]}";
 }
 
 _installPackagesYay() {
@@ -64,5 +66,5 @@ _installPackagesYay() {
     fi;
 
     printf "AUR packags not installed:\n%s\n" "${toInstall[@]}";
-    yay --noconfirm -S "${toInstall[@]}";
+    yes | yay -S "${toInstall[@]}";
 }

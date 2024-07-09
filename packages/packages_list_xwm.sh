@@ -15,7 +15,6 @@ packagesParu=(
 "zsh"
 
 ## Wm packages
-"pamixer"
 "playerctl"
 "brightnessctl"
 "udiskie"
@@ -76,6 +75,7 @@ packagesParu=(
 "noto-fonts-emoji" # for emojis
 "noto-fonts" # for emojis
 "ttf-nerd-fonts-symbols" # for non-patched symbols
+"ttf-fira-code"
 
 ## Others
 "stow"

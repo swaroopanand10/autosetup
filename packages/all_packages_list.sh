@@ -139,7 +139,7 @@ packagesParu=(
 "gparted"
 "polkit-gnome"
 # "xournalpp"
-"lorien-bin"
+# "lorien-bin"
 # "visual-studio-code-bin"
 # "cloudflare-warp-bin"
 # "ansible"
@@ -156,7 +156,7 @@ packagesParu=(
 ## Git related
 "git-delta"
 "lazygit"
-"gitui"
+# "gitui"
 
 ## Resource manager
 "htop"
@@ -217,7 +217,8 @@ packagesParu=(
 ## Themes (trying to be as lightweight as possible)
 "adwaita-cursors"
 "arc-icon-theme"
-"dracula-gtk-theme"
+"materia-gtk-theme"
+# "dracula-gtk-theme"
 # "dracula-icons-git"
 # "dracula-cursors-git"
 # "faba-icon-theme"
