@@ -131,12 +131,12 @@ packagesYay=(
 "stow"
 "tesseract"
 "tesseract-data-eng"
-"chafa"
-"ffmpegthumbnailer"
-"imagemagick"
-# "poppler"
+"ffmpegthumbnailer" # required for video thumbnail previews
+"imagemagick" # required for image.nvim and image conversions
+"poppler" # helps in pdf previews
 "gparted"
 "polkit-gnome"
+# "chafa"
 # "xournalpp"
 # "lorien-bin"
 # "visual-studio-code-bin"
@@ -172,37 +172,39 @@ packagesYay=(
 
 ## Filemanagers
 "lf"
-"yazi"
 "ctpv"
+"yazi"
+"nemo"
 # "yazi-git"
 # "ctpv-git"
 # "ueberzugpp"
 # "ranger"
 # "joshuto"
-"nemo"
 # "lf-sixel-git"
+
+### Debugging tools
+"gdb"
+"cgdb"
+"kdbg"
 
 ## language specific packages
 "python"
 "python-pip"
-"python-pynvim"
+# "python-pynvim" ( don't know it's use )
 "nodejs"
 "npm"
-"gdb"
-"cgdb"
-"kdbg"
 # "prettier"
 # "rustup"
 # "rust-analyzer"
 "go"
 "cmake"
+# "clang" (don't need it as already installed in nvim)
 # "flake8"
 # "python-black"
 # "stylua"
 "luarocks"
 "lua51" # for imaeg.nvim
 # "typescript-language-server"
-"clang"
 # "vscode-css-languageserver"
 # "vscode-html-languageserver"
 # "tidy"
