@@ -19,7 +19,7 @@ packagesYay=(
   # "swayosd-git"
   # "wlr-randr"
   # "wlprop"
-  # "jt5ct" # useless if qt5-styleplugins is there
+  # "qt5ct" # useless if qt5-styleplugins is there
   # "qt5-styleplugins" # using it to set gtk theme to qt applications
 
   ### for screen capturing

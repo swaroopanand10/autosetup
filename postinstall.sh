@@ -16,9 +16,6 @@ sudo gpasswd -a swaroop input
 ## Nemo default terminal
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
 
-## Syncing firefox css
-"$HOME"/scripts/firefox/backup_restore.sh
-
 ## Changing shell to zsh for my user
 sudo chsh -s /bin/zsh "$USER"
 
