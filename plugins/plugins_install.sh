@@ -6,3 +6,4 @@ CURRENT_DIR=$(realpath "$(dirname "$0")")
 
 "$CURRENT_DIR"/zsh_plugins.sh
 "$CURRENT_DIR"/tmux_plugins.sh
+# "$CURRENT_DIR"/bash_plugins.sh
