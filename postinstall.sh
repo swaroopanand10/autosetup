@@ -7,9 +7,6 @@ sudo gpasswd -a swaroop input
 ## Reloading udevadm rules for batify
 # sudo udevadm control --reload-rules (uninstalled for now)
 
-## Changing shell to zsh
-chsh -s /bin/zsh
-
 ## Creating some imp dirs
 [ -d ~/Pictures ] || mkdir ~/Pictures # create pictures dir only if not exist
 [ -d ~/Pictures/screenshots ] || mkdir -p ~/Pictures/screenshots
@@ -18,6 +15,12 @@ chsh -s /bin/zsh
 
 ## Nemo default terminal
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
+
+## Syncing firefox css
+"$HOME"/scripts/firefox/backup_restore.sh
+
+## Changing shell to zsh for my user
+sudo chsh -s /bin/zsh "$USER"
 
 ## Virtualization
 # sudo systemctl enable --now libvirtd
